@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Игры — настолки</title>
+<style>
+body{margin:0;background:#fdf3e7;color:#2b1d12;font:21px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:760px;margin:auto;padding:12px}
+.draft{background:#c62828;color:#fff;text-align:center;font-weight:800;font-size:20px;padding:8px;border-radius:10px;letter-spacing:2px}
+header{background:linear-gradient(135deg,#e65100,#ff7043 55%,#ffca28);color:#fff;border-radius:18px;padding:18px 20px;margin:12px 0}
+header h1{margin:0;font-size:32px}header p{margin:6px 0 0;font-size:18px;opacity:.95}
+details{background:#fff;border-radius:18px;box-shadow:0 2px 8px rgba(0,0,0,.08);margin:16px 0;overflow:hidden;border:2px solid #ffccbc}
+details[open]{border:3px solid #ef6c00}
+summary{list-style:none;cursor:pointer;padding:14px 16px;font-size:25px;font-weight:800;color:#bf360c;background:#fff3e0;display:flex;align-items:center;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary .ic{font-size:40px;line-height:1}
+summary .ar{margin-left:auto;font-size:22px;transition:transform .2s}
+details[open] summary .ar{transform:rotate(90deg)}
+.body{padding:6px 16px 16px}
+a.btn{display:flex;align-items:center;gap:12px;background:#fff8ee;border:2px solid #e3b98a;border-radius:16px;padding:14px 16px;margin:12px 0;text-decoration:none;color:#2b1d12}
+a.btn:active{background:#ffe0b2}
+a.btn .bi{font-size:36px;min-width:46px;text-align:center}
+a.btn b{display:block;color:#a0480f;font-size:23px}
+a.btn span{font-size:17px;color:#6d5a4a}
+.small{font-size:16px;color:#777;text-align:center;margin:24px 0 8px}
+.soon{opacity:.55}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>🎲 Игры</h1>
+  <p>Настолки: памятки для телефона и листы для печати</p>
+</header>
+
+<details open>
+  <summary><span class="ic">💣🐱</span>Взрывные котята<span class="ar">▶</span></summary>
+  <div class="body">
+    <a class="btn" href="https://pavelignatev.github.io/kotyata-pamyatka/">
+      <span class="bi">📱</span>
+      <span><b>Для телефона</b><span>Памятка: все карты, кто что делает, поиск</span></span>
+    </a>
+    <a class="btn" href="https://pavelignatev.github.io/moi-materialy/kotyata_A4.pdf?v=2">
+      <span class="bi">🖨️</span>
+      <span><b>Для печати</b><span>Один лист А4 (PDF) — положить рядом на стол</span></span>
+    </a>
+  </div>
+</details>
+
+<details open>
+  <summary><span class="ic">🐘</span>Имаджинариум<span class="ar">▶</span></summary>
+  <div class="body">
+    <a class="btn" href="https://pavelignatev.github.io/moi-materialy/imadzhinarium.html">
+      <span class="bi">📱</span>
+      <span><b>Для телефона</b><span>Памятка: подготовка, ход, очки, конец игры</span></span>
+    </a>
+    <a class="btn" href="https://pavelignatev.github.io/moi-materialy/imadzhinarium_A4.pdf">
+      <span class="bi">🖨️</span>
+      <span><b>Для печати</b><span>Один лист А4 (PDF) — положить рядом на стол</span></span>
+    </a>
+  </div>
+</details>
+
+<p class="small">Обновлено 18.10.2026</p>
+</main>
+</body>
+</html>

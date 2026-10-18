@@ -1,0 +1,74 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Имаджинариум — памятка</title><style>
+body{margin:0;font-family:-apple-system,Roboto,"Segoe UI",Arial,sans-serif;background:#f4f0ff;color:#1a1a1a;font-size:20px;line-height:1.45}
+header{position:sticky;top:0;background:#24123f;color:#fff;padding:10px 12px;z-index:5}
+header h1{font-size:20px;margin:0 0 8px}
+nav{display:flex;gap:6px}nav a{flex:1;text-align:center;background:#7c4dff;color:#fff;text-decoration:none;font-weight:700;padding:10px 2px;border-radius:12px;font-size:16px}
+main{max-width:760px;margin:0 auto;padding:12px}
+h2{font-size:26px;margin:22px 4px 10px;scroll-margin-top:80px}
+.box{background:#fff;border:3px solid #24123f;border-radius:16px;padding:12px 16px;margin:12px 0}
+.box ul,.box ol{margin:0;padding-left:26px}.box li{margin:8px 0}
+.lead{background:#fff1c9;font-size:21px}
+table{border-collapse:collapse;margin:6px 0;font-size:19px}td{border:2px solid #24123f;padding:4px 10px;text-align:center}td:first-child{text-align:left;font-weight:700}
+.sc{display:flex;gap:12px;align-items:flex-start;background:#fff;border:3px solid #24123f;border-radius:16px;padding:12px;margin:12px 0}
+.sc .ic{font-size:40px;line-height:1;flex:none;width:48px;text-align:center}
+.sc h3{margin:0 0 4px;font-size:22px}.sc p{margin:4px 0}
+.plus{color:#1b7f2a;font-weight:800}.minus{color:#c62828;font-weight:800}
+.ex{background:#fff1c9;border-radius:8px;padding:4px 8px;font-size:18px}
+.tip{background:#e8f5e9;border-color:#1b7f2a}
+.foot{text-align:center;color:#888;font-size:14px;margin:20px}
+@media(max-width:420px){.sc .ic{font-size:34px;width:40px}.sc h3{font-size:21px}}
+</style></head><body>
+<header><h1>🐘 Имаджинариум · памятка</h1><nav><a href="#prep">Начало</a><a href="#turn">Ход</a><a href="#score">Очки</a><a href="#end">Конец</a></nav></header>
+<main>
+<div class="box lead">Ведущий загадывает свою карту словами. Остальные подкладывают похожие карты. Все угадывают, какая карта ведущего.</div>
+
+<h2 id="prep">Подготовка</h2>
+<div class="box"><ul>
+<li>Игроков <b>от 4 до 7</b>. Карт в колоде:
+<table><tr><td>Игроков</td><td>4</td><td>5</td><td>6</td><td>7</td></tr><tr><td>Карт</td><td>96</td><td>75</td><td>72</td><td>98</td></tr></table>Лишние карты — в коробку.</li>
+<li>Каждому — <b>слон</b> и <b>жетоны</b> своего цвета. Номера жетонов — от 1 до числа игроков (5 игроков — жетоны 1…5).</li>
+<li>Все слоны — на облако <b>1</b>.</li>
+<li>Каждому — <b>6 карт</b> в руку. Остальные — стопкой рубашкой вверх.</li>
+<li>Первый ведущий — кто вытянет жетон с самым большим числом.</li>
+</ul></div>
+
+<h2 id="turn">Ход</h2>
+<div class="box"><ol>
+<li><b>Ведущий</b> выбирает свою карту и говорит ассоциацию: слово, фразу, строчку песни, цитату — что угодно. Кладёт карту рубашкой вверх.</li>
+<li><b>Остальные</b> кладут по одной своей карте, которая подходит к ассоциации, тоже рубашкой вверх.</li>
+<li>Ведущий перемешивает карты и выкладывает в ряд картинками вверх. Слева направо: <b>№1, №2, №3…</b></li>
+<li>Все, <b>кроме ведущего</b>, тайно кладут жетон с номером карты цифрой вниз. <b>За свою карту нельзя.</b> Ведущий молчит.</li>
+<li>Открыли жетоны — считаем очки. 1 очко = 1 облако вперёд.</li>
+</ol></div>
+
+<h2 id="score">Очки</h2>
+<div class="sc"><span class="ic">😩</span><div><h3>Угадали все</h3><p>Ведущий — <span class="minus">3 облака назад</span> (не дальше облака 1).</p><p>Остальные стоят.</p></div></div>
+<div class="sc"><span class="ic">🤷</span><div><h3>Не угадал никто</h3><p>Ведущий — <span class="minus">2 облака назад</span>.</p><p>Остальные: <span class="plus">+1</span> за каждый голос за свою карту.</p></div></div>
+<div class="sc"><span class="ic">🎉</span><div><h3>Угадали некоторые</h3><p>Ведущий: <span class="plus">+3</span> и <span class="plus">+1</span> за каждого угадавшего.</p><p>Угадавшие: <span class="plus">+3</span>.</p><p>Каждый: <span class="plus">+1</span> за каждый голос за свою карту.</p><p class="ex">Пример: угадали двое — ведущий 3 + 2 = 5. Угадавшие по 3. За чью карту проголосовал один — +1.</p></div></div>
+<div class="box tip">💡 <b>Хитрость.</b> Слишком просто — угадают все, и ведущий уйдёт назад. Слишком сложно — не угадает никто. Нужно, чтобы угадали <b>некоторые</b>.</div>
+
+<h2>Особые облака</h2>
+<div class="box">Слон ведущего стоит на облаке со значком — ассоциация должна быть:<ul>
+<li>в форме <b>вопроса</b>;</li>
+<li>ровно из <b>4 слов</b>;</li>
+<li>про известный <b>бренд</b> (слоган, реклама);</li>
+<li>про <b>фильм</b>, мультфильм, сериал или передачу;</li>
+<li>в форме <b>рассказа</b>.</li></ul></div>
+
+<h2 id="end">Конец хода</h2>
+<div class="box"><ul>
+<li>Сыгранные карты — в сброс. Каждый берёт 1 карту (снова 6 в руке).</li>
+<li>Колода кончилась — играем тем, что осталось в руке.</li>
+<li>Ведущий — следующий <b>по часовой</b>.</li>
+</ul></div>
+
+<h2>Конец игры</h2>
+<div class="box"><ul>
+<li>Игра кончается, когда у всех <b>кончились карты в руке</b>.</li>
+<li>Побеждает тот, чей слон <b>дальше всех</b>.</li>
+<li>Слон дошёл до последнего облака — идёт на второй круг.</li>
+<li>Можно заранее договориться: игра до облака <b>39</b>.</li>
+</ul></div>
+<p class="foot">Памятка по правилам базового «Имаджинариума» · обновлено 18.10.2026</p>
+</main></body></html>
